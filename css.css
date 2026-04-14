@@ -9,6 +9,10 @@
     display: flex;
     align-items: center;
 }
+#logo-area h4{
+    font-size: 17px;
+    
+}
 /* --------------nav-bar ------------------------ */
 #nav-bar{
     display: flex;
@@ -29,22 +33,29 @@
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
-    font-size: 1.2rem;
+    font-size: 17px;
     font-weight: bold;
     cursor: pointer;
-    color: #fff;
+    color: #4e36b6;
     align-items: center;
 }
 #header-section ul li a{
     text-decoration: none;
-    color: #1d0808;
+    color: #0a491c;
+}
+#header-section ul li.active a{
+    color: #099b46;
 }
 .active,#header-section ul li:hover {
-    background-color: #b75773;
+    background-color: red;
     padding: 10px 12px;
     border-radius: 10px;
     transition: 0.3s;
     cursor: pointer;
+    color: white;
+}
+.active{
+    color: #3525e5;
 }
 
 /* --------------header-button------------------------ */
@@ -87,7 +98,7 @@
 
 }
 #sub-menu-1 ul li a:hover {
-    background-color: #f30d33;
+    background-color:;
     color: white;
 }
 #header-section ul li a:hover {
@@ -150,6 +161,15 @@
     justify-content: center;
     gap: 20px;
 }
+#btn-main:hover {
+    background-color: #90b294;
+    transition: 0.1s;
+}
+#btn-sub:hover {
+    background-color: #343635;
+    transition: 0.1s;
+}
+    
 #btn-main{
     background-color: #ffffff;
     color: #167a54;
@@ -292,10 +312,15 @@
 #third-section #nationwide-presence{
     margin-top: 90px;
 }
-#third-section h2{
-    font-size: 36px;
+#third-section h2, {
+    font-size: 1.25rem;
     font-family: sans-serif;
+    font-weight: 700;
 }
+#third-section h4{
+
+}
+
 #third-section #registration-para{
     font-size: 20px;
     font-family: sans-serif;
@@ -332,11 +357,11 @@
 
 #card1 h4 {
   margin-bottom: 10px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 #card1 p {
-  font-size: 14px;
+  font-size: 1.2rem;
   color: #555;
   line-height: 19px;
 }
@@ -409,7 +434,7 @@
 #card2 p{
     line-height: 19px;
     margin-top: 7px;
-    font-size: 14px;
+    font-size: 1.2rem;
     color: #555;
 }
 #btn2{
@@ -459,7 +484,7 @@
 }
 #card-single p{
     color: #777;
-    font-size: 14px;
+    font-size: 1.2rem;
     margin-bottom: 25px;
 }
 #btn4{
@@ -485,6 +510,12 @@
     gap: 40px;
     background-color: #f2f8f480;
     font-family: sans-serif;
+}
+#fourth-section p{
+    font-size: 17px;
+}
+#paragraph-1{
+    margin-top: 15px;
 }
 #first-article{
     flex: 1;
@@ -515,8 +546,8 @@
     font-size: 16px;
 }
 #the-boxes p{
-    font-size: 0.9rem;
-    color: #666;
+    font-size: 1.2rem;
+    color: #443d3d;
     line-height: 1.5;
 }
 #about-plat{
@@ -577,9 +608,13 @@
     color: #167a54;
     border-radius: 13px;
 }
+#start-reg1:hover{
+    background-color: rgb(191, 191, 203);
+    transition: 0.2;
+}
 footer{
     display: flex;
-    padding: 50px 60px;
+    padding: 90px 100px;
     align-items: flex-start;
     gap: 200px;
     background: #141414;
